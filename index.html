@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
-    <script src="javascript.js"></script>
+    <div class="container">
+        <center><h1>Computer</h1></center>
+        <div class="computer">
+            <img src="./images/rock.jpg" alt="computerRock" id="computerRock">
+            <img src="./images/paper.jpg" alt="computerPaper" id="computerPaper">
+            <img src="./images/scissors.jpeg" alt="computerScissors" id="computerScissors">
+        </div>
+        <div class="player">
+            <img src="./images/rock.jpg" alt="rock" id="playerRock">
+            <img src="./images/paper.jpg" alt="paper" id="playerPaper">
+            <img src="./images/scissors.jpeg" alt="scissors" id="playerScissors">
+        </div>
+        <center><h1>Player</h1></center>
+    </div>
+    <div class="score">
+        <center>
+            <h1>Score</h1>
+            <h5>Player: </h5><p id="playerScore"></p>
+            <h5>Computer: </h5><p id="computerScore"></p>
+        </center>
+    </div>
 </body>
 </html>
